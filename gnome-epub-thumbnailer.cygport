@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gnome-epub-thumbnailer"
-VERSION=1.2
+VERSION=1.3
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="EPub/MOBI thumbnailer"

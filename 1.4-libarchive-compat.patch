@@ -1,0 +1,11 @@
+--- origsrc/gnome-epub-thumbnailer-1.4/gnome-epub-thumbnailer.c	2013-09-01 19:56:05.000000000 -0500
++++ src/gnome-epub-thumbnailer-1.4/gnome-epub-thumbnailer.c	2014-03-26 13:05:39.970314500 -0500
+@@ -101,7 +101,7 @@ file_get_zipped_contents (const char   *
+ 		}
+ 		archive_read_data_skip(a);
+ 	}
+-	archive_read_free(a);
++	archive_read_finish(a);
+ 
+ 	return ret;
+ }

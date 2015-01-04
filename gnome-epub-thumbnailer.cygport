@@ -2,11 +2,7 @@ inherit gnome2
 
 NAME="gnome-epub-thumbnailer"
 VERSION=1.4
-RELEASE=1
+RELEASE=2
 CATEGORY="GNOME"
 SUMMARY="EPub/MOBI thumbnailer"
 DESCRIPTION="A thumbnailer for EPub and MOBI books"
-
-if defined ARCH_i686; then
-PATCH_URI="1.4-libarchive-compat.patch"
-fi
